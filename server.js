@@ -21,6 +21,7 @@ app.use(morgan("tiny"));
 // Routers
 
 app.use("/user", require("./routers/userRouter"));
+app.use("/api", require("./routers/categoryRouter"));
 
 //connect to mongoDB
 
