@@ -19,10 +19,10 @@ function Header() {
       </div>
       <ul>
         <li>
-          <Link to="/">Products</Link>
+          <Link to="/">Maxsulotlar</Link>
         </li>
         <li>
-          <Link to="/login">Login or Register</Link>
+          <Link to="/login">Kirish yoki hisob ochish</Link>
         </li>
         <li>
           <img src={Close} alt="" className="menu" width="30"></img>

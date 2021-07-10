@@ -8,18 +8,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+body {
+  background-color: turquoise;
+}
 .App {
   max-width: 1230px;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 0 20px;
-  box-shadow: 0 0 35px #eee;
+  padding: 20px 20px;
+  box-shadow: 0 0 35px #aaa;
+  background-color: #ddd;
 }
 
 a {
@@ -36,4 +38,10 @@ button {
 }
 
 /*-------header--------*/
-@import url(components/headers/header.css);
+@import url("components/headers/header.css");
+
+/*-------Products--------*/
+@import url("components/mainpages/products/products.css");
+
+/* ---------------- Detail Product --------------- */
+@import url("./components/mainpages/detailProduct/detailProduct.css");
