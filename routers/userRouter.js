@@ -13,6 +13,8 @@ router.get("/refresh_token", userCtrl.refreshToken);
 
 router.get("/infor", auth, userCtrl.getUser);
 
+router.patch("/addcart", auth, userCtrl.addCart);
+
 // vaqtinchalik
 router.get("/", async (req, res) => {
   const users = await Users.find();

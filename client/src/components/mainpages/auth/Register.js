@@ -28,6 +28,7 @@ function Register() {
   };
   return (
     <div className="login-page">
+      <h1>Ro'yhatdan o'tish</h1>
       <form onSubmit={registerSubmit}>
         <input
           type="email"

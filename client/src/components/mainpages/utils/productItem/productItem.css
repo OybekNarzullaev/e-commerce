@@ -59,3 +59,8 @@
   background: teal;
   margin-left: 5px;
 }
+.product-cart input {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}

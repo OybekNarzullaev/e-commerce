@@ -8,7 +8,7 @@ function DetailProduct() {
   const params = useParams();
   // stateni global statedan chaqiramiz
   const state = useContext(GlobalState);
-  const [products] = state.productsApi.products;
+  const [products] = state.productsAPI.products;
   const [detailProduct, setDetailProduct] = useState([]);
 
   useEffect(() => {

@@ -18,7 +18,7 @@ function Login() {
     try {
       await axios.post("/user/login", { ...user });
 
-      localStorage.setItem("firstlogin", true);
+      localStorage.setItem("firstLogin", true);
 
       window.location.href = "/";
     } catch (err) {
@@ -27,6 +27,7 @@ function Login() {
   };
   return (
     <div className="login-page">
+      <h1>Tizimga kirish</h1>
       <form onSubmit={loginSubmit}>
         <input
           type="email"
@@ -40,10 +41,10 @@ function Login() {
           type="password"
           name="password"
           required
+          autoComplete="on"
           placeholder="Parol"
           value={user.password}
           onChange={onChangeInput}
-          autoComplete="on"
         />
         <div className="row">
           <button type="submit">Kirish</button>
