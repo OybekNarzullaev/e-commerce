@@ -14,13 +14,13 @@
   font-size: 1.5rem;
 }
 
-button.plus {
+button.minus {
   background-color: crimson;
   color: aliceblue;
   border: none;
   border-radius: 20%;
 }
-button.minus {
+button.plus {
   background-color: green;
   color: aliceblue;
   border: none;

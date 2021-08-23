@@ -1,4 +1,5 @@
 .product-cart {
+  width: 100%;
   max-width: 300px;
   overflow: hidden;
   height: 500px;
